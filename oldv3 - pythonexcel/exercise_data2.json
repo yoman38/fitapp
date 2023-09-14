@@ -1,0 +1,39 @@
+{
+    "UserInput": {
+        "MuscleFocus": {
+            "Lat": 30,
+            "Chest": 30,
+            "Deltoids": 0,
+            "Biceps": 20,
+            "Triceps": 20,
+            "Abs": 0,
+            "Forearm": 0,
+            "Quadriceps": 0,
+            "Hamstring": 0,
+            "Calves": 0,
+            "Gluteus": 0,
+            "Lumbar": 0,
+            "Trapezius": 0
+        },
+        "FocusType": "Strength",
+        "Equipment": {
+            "Dumbbell": "x",
+            "Bench": "x",
+            "Bar": "",
+            "Band": "",
+            "Machine": "",
+            "Kettlebell": "",
+            "Disk": "",
+            "Drawbar": "",
+            "ParallelBars": "",
+            "WeightedChain": "",
+            "Other": ""
+        },
+        "RestTimeInSeconds": 180,
+        "Method": "progressive",
+        "TotalTrainingLengthInMinutes": 45,
+        "DesiredNumberOfExercises": 5,
+        "Warmup": "x",
+        "Cooldown": "abs"
+    }
+}

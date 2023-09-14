@@ -1,0 +1,29 @@
+Certainly, here are multiple ways to select exercises based on the user's desired muscle focus percentages:
+
+**Method 1: Prioritized Selection**
+1. Start with the muscle group that has the highest percentage focus (e.g., if the user desires 50% chest and 30% back, start with chest).
+2. Iterate through the exercise database and select exercises that primarily target the prioritized muscle group.
+3. Calculate the cumulative percentage of the selected muscle group. If it reaches or exceeds the desired percentage, move on to the next muscle group (e.g., back).
+4. Continue the iteration for other muscle groups, selecting exercises to match their percentages.
+5. Ensure the total number of exercises selected aligns with the user's desired session length and exercise count.
+
+**Method 2: Round Robin Selection**
+1. Start with the muscle group that has the highest percentage focus.
+2. Iterate through the exercise database, selecting exercises that primarily target the current muscle group.
+3. After selecting an exercise for the current muscle group, rotate to the next muscle group in the list (e.g., from chest to back) and continue selecting exercises.
+4. Repeat this process until the desired number of exercises is selected.
+
+**Method 3: Randomized Selection with Priority**
+1. Assign each exercise in the database a weight based on its muscle focus alignment with the user's preferences.
+2. Perform a weighted random selection of exercises to ensure that exercises that closely match the user's focus have a higher chance of being selected.
+3. Continue selecting exercises until the desired number of exercises is reached.
+
+**Method 4: Muscle Group Clustering**
+1. Cluster exercises into groups based on their primary muscle focus (e.g., chest exercises, back exercises, etc.).
+2. Calculate the cumulative percentage for each cluster.
+3. Start with the cluster that has the highest percentage focus.
+4. Randomly select exercises from this cluster until the desired percentage is met.
+5. Move on to the next cluster with the highest remaining percentage focus and repeat the selection process.
+6. Continue until the desired number of exercises is selected.
+
+These methods offer different approaches to exercise selection based on the user's desired muscle focus percentages. Each method has its advantages and may be suitable for different user preferences or workout goals. The key is to ensure that the selected exercises align as closely as possible with the user's muscle focus while accommodating the practical limitations of exercise availability.

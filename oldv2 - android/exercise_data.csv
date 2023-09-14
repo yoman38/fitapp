@@ -1,0 +1,29 @@
+Exercise Name,Primary Muscle,Secondary Muscle,tertiary muscle (if exists),quarternary muscle (if exists),Material 1,Material 2,Material 3,Est. Time for 10 Reps,Weight,type
+Developpe assis ? la machine convergente,Chest 70%,Triceps 20%,forearms 10%,,Machine,,,60s,80kg,warmup
+Developpe couche avec halt?res,Chest 70%,Triceps 30%,,,Dumbbell,,,45s,60kg,warmup
+Developpe couche ? la barre,Chest 70%,Triceps 30%,,,bar,bench,,50s,70kg,stretching
+Developpe couche ? la machine convergente,chest 75%,Triceps 10%,forearms 10%,biceps 5%,Machine,,,55s,75kg,abs
+Developpe decline avec halteres,Chest 70%,Triceps 30%,,,Dumbbell,,,50s,65kg,Main
+Developpe decline ? la barre,Chest 70%,Triceps 30%,,,bar,bench,,55s,70kg,Main
+Developpe incline avec halteres,Chest 70%,Triceps 30%,,,Dumbbell,bench,,50s,65kg,finishing
+Pull-up,Lat 70%,Trapezius 20%,biceps 10%,,traction bar,,,40s,body weight,Main
+Lat Pull Down,Lat 70%,Trapezius 20%,forearms 10%,,Machine,,,40s,50kg,warmup
+Barbell Row,Lat 70%,Trapezius 20%,lombar 10%,,bar,,,45s,50kg,Main
+Seated Row,Lat 60%,Trapezius 20%,lombar 20%,,Machine,,,45s,55kg,Main
+Deadlift,Lombar 40%,Hamstring 30%,Gluteus 20%,Quadriceps 10%,bar,,,60s,100kg,Main
+Squats,Quadriceps 40%,Hamstring 30%,Gluteus 20%,Lombar 10%,bar,,,60s,80kg,Main
+Bench Press,Chest 70%,Triceps 20%,forearms 10%,,bar,bench,,50s,70kg,Main
+Military Press,Deltoids 70%,Trapezius 20%,Triceps 10%,,bar,,,40s,40kg,Main
+Push-up,Chest 60%,Triceps 30%,deltoids 10%,,,,,30s,body weight,warmup
+Plank,Abs 100%,,,,,,,60s,body weight,abs
+Russian Twists,Abs 60%,obliques 40%,,,,,,30s,body weight,abs
+Skull Crushers,Triceps 80%,forearms 20%,,,bar,,,35s,20kg,Main
+Tricep Dips,Triceps 60%,Chest 20%,deltoids 20%,,parallel bars,,,40s,body weight,finishing
+Calf Raises,Calf 90%,quadriceps 10%,,,,,,30s,body weight,finishing
+Hamstring Curl,Hamstring 80%,gluteus 20%,,Machine,,,40s,30kg,Main,
+Cable Crunch,Abs 80%,lombar 20%,,Machine,,,35s,40kg,abs,
+Face Pull,Trapezius 50%,deltoids 30%,forearms 20%,,band,,,35s,body weight,Main
+Shrug,Trapezius 90%,neck 10%,,,bar,,,30s,40kg,Main
+Leg Extension,Quadriceps 90%,calf 10%,,,Machine,,,40s,50kg,finishing
+Seated Calf Raise,Calf 90%,quadriceps 10%,,,Machine,,,30s,40kg,finishing
+Kettlebell Swing,Gluteus 40%,hamstring 30%,lombar 20%,quadriceps 10%,kettlebell,,,45s,20kg,Main

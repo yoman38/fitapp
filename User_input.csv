@@ -1,0 +1,31 @@
+﻿Lat,30
+Chest,30
+Deltoids,0
+Biceps,20
+Triceps,20
+Abs,0
+Forearm,0
+Quadriceps,0
+Hamstring,0
+Calves,0
+Gluteus,0
+Lumbar,0
+Trapezius,0
+"define the focus (strenght = 1-7 reps & long rest, hypertrophy 7-14 reps & average rest, endurance = 15-30 reps & short rest)",Strength
+Dumbbell,x
+Bench,x
+Bar,
+Band,
+Machine,
+Kettlebell,
+Disk,
+Drawbar,
+ParallelBars,
+WeightedChain,
+Other,
+"Rest time in seconds (strenght 120-300, hypertrophy 60-120, endurance 20-60)",180
+"Method (strenght: progressive overload, hypertrophy : drop set, endurance : pyramidal)",progressive
+total training lenght in minutes,45
+desired number of differents exercises,5
+warmup ?,x
+"cooldown ? (abs, stretching or none)",abs

@@ -1,0 +1,25 @@
+﻿Exercise Name,Lats,Chest,Deltoids,Biceps,Triceps,abs,Forearm,Quads,Hams,Calfs,Glutes,Lumbar,Trapezius,Material 1,Material 2,Material 3,Est. Time for 10 Reps,Weight for 10 rep,Type,coeff rest time
+Developpe assis a la machine convergente,0,0.7,0.1,0.1,0.2,0,0.1,0,0,0,0,0,0,Machine, ,,60,80, warmup,1.7
+Developpe couche avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,45,60, warmup,1.3
+Developpe couche a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,50,70, stretching,1.5
+Developpe couche a la machine convergente,0,0.75,0,0.05,0.1,0,0.1,0,0,0,0,0,0,Machine, , ,55,75, abs,1.6
+Developpe decline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,50,65, Main,1.3
+Developpe decline a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,55,70, Main,1.4
+Developpe incline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell,Bench, ,50,65, finishing,1.3
+Pull-up,0.7,0.2,0,0.1,0,0,0,0,0,0,0,0,0,drawbar, , ,40, Body Weight, Main,0.8
+Lat Pull Down,0.7,0.2,0,0,0,0,0.1,0,0,0,0,0,0,Machine, , ,40,50, warmup,1.2
+Barbell Row,0.7,0.2,0,0,0,0,0,0.1,0,0,0,0.1,0,Bar, , ,45,50, Main,1.2
+Seated Row,0.6,0.2,0,0,0,0,0,0.2,0,0,0,0,0,Machine, , ,45,55, Main,1.2
+Deadlift,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,100, Main,2
+Squats,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,80, Main,1.7
+Bench Press,0,0.7,0,0.1,0.2,0,0.1,0,0,0,0,0,0,Dumbbell,Bench, ,50,70, Main,1.5
+Military Press,0,0,0.7,0,0.1,0,0,0,0,0,0,0,0.2,Bar, , ,40,40, Main,1.1
+Push-up,0,0.6,0.1,0,0.3,0,0,0,0,0,0,0,0,, , ,30, Body Weight, warmup,0.8
+Plank,0,0,0,0,0,1,0,0,0,0,0,0,0,, , ,60, Body Weight, abs,0.8
+Skull Crushers,0,0,0,0,0.8,0,0.2,0,0,0,0,0,0,Bar, , ,35,20, Main,1
+Tricep Dips,0,0.2,0,0,0.6,0,0,0,0,0,0,0,0,ParallelBars, , ,40, Body Weight, finishing,0.8
+Calf Raises,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,, , ,30, Body Weight, finishing,0.8
+Face Pull,0,0,0.7,0,0,0,0.3,0,0,0,0,0,0,Band, , ,35, Body Weight, Main,0.8
+Shrug,0,0,0,0,0,0,0,0,0,0,0,0,0.9,Bar, , ,30,40, Main,1.1
+Seated Calf Raise,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,Machine, , ,30,40, finishing,1.1
+Kettlebell Swing,0,0,0,0.4,0,0,0,0.1,0.3,0,0.2,0,0,Kettlebell, , ,45,20, Main,1

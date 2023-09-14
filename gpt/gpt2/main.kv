@@ -1,0 +1,459 @@
+BoxLayout:
+    orientation: "vertical"
+
+    MDTabs:
+        id: tabs
+        tab_bar_height: '48dp'
+        color: 0, 0, 0, 1  # RGBA for black
+        tab_indicator_anim: False
+        tab_indicator_color: 1, 0, 0, 1
+        background_color: 0.1, 0.1, 0.1, 1
+
+<ExerciseListTab>:
+    ScrollView:
+        MDBoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height
+            id: exercise_list
+
+<AutoWorkoutGenerator>:
+    ScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
+
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height
+            id: auto_workout_layout
+
+            Label:
+                text: "Muscle Focus Percentages"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+
+            # Muscle Focus Sliders
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'                
+                Label:
+                    text: "Chest Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: chest_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+
+                Label:
+                    text: "Lat Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: lat_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Deltoids Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: deltoids_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Biceps Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: biceps_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+            
+            BoxLayout:
+                orientation: 'horizontal'
+
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Abs Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: abs_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Forearm Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: forearm_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Quadriceps Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: quadriceps_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Calf Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: calf_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Hamstring Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: harmstring_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Gluteus Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: gluteus_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Lombar Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: lombar_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Triceps Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: triceps_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Trapezius Focus"
+                    color: 0, 0, 0, 1  # RGBA for black
+                Slider:
+                    id: trapezius_slider
+                    previous_value: 0  # Initialize previous_value to 0
+                    min: 0
+                    max: 100
+                    value: 0
+                    on_value: root.update_muscle_focus(self, self.value)
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+
+                ToggleButton:
+                    id: strength_button  # Added ID
+                    text: "Strength"
+                    group: 'workout_focus'
+                ToggleButton:
+                    id: hypertrophy_button  # Added ID
+                    text: "Hypertrophy"
+                    group: 'workout_focus'
+                ToggleButton:
+                    id: fit_button  # Added ID
+                    text: "Fit"
+                    group: 'workout_focus'
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Dumbbell"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: dumbbell_check
+
+                Label:
+                    text: "Bar"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: bar_check
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Band"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: band_check
+
+                Label:
+                    text: "Bench"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: bench_check
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Machine"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: machine_check
+
+                Label:
+                    text: "Kettlebell"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: kettlebell_check
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Disk"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: disk_check
+
+                Label:
+                    text: "Traction Bar"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: traction_bar_check
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Parallel Bars"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: parallel_bars_check
+
+                Label:
+                    text: "Weighted Chain"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: weighted_chain_check
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Label:
+                    text: "Other"
+                    color: 0, 0, 0, 1  # RGBA for black
+                CheckBox:
+                    id: other_check
+
+
+            Label:
+                text: "Intensity Level"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+
+                Slider:
+                    id: intensity_slider
+                    min: 1
+                    max: 5
+                    value: 3
+                    on_value: root.update_intensity_label(intensity_value_label, self.value)
+
+                Label:
+                    id: intensity_value_label
+                    text: "Current: 3"
+                    color: 0, 0, 0, 1  # RGBA for black
+
+            Label:
+                text: "Training Technique (optional)"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+
+                ToggleButton:
+                    text: "Progressive Loading"
+                    group: 'technique'
+                ToggleButton:
+                    text: "Degressive Loading"
+                    group: 'technique'
+                ToggleButton:
+                    text: "Superset"
+                    group: 'technique'
+
+            Label:
+                text: "Training Length and Number of Exercises"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+
+                TextInput:
+                    id: training_time_input
+                    hint_text: "Time in minutes"
+                    input_filter: 'int'
+                TextInput:
+                    id: num_exercises_input
+                    hint_text: "Number of exercises"
+                    input_filter: 'int'
+
+            Label:
+                text: "Activate Warmup?"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                ToggleButton:
+                    text: "Warmup"
+                    color: 0, 0, 0, 1  # RGBA for black
+                    group: 'warmup'
+            
+            Label:
+                text: "Choose Cooldown Method (or none)"
+                size_hint_y: None
+                height: '48dp'
+                color: 0, 0, 0, 1  # RGBA for black
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                ToggleButton:
+                    text: "Stretching"
+                    group: 'cooldown'
+                ToggleButton:
+                    text: "Abs"
+                    group: 'cooldown'
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: '48dp'
+                Button:
+                    text: "Generate Workout"
+                    background_color: 1, 0, 0, 1
+                    color: 0, 0, 0, 1  # RGBA for black
+                    on_press: root.collect_user_input()
+                Button:
+                    text: "Reset Preferences"
+                    background_color: 0, 1, 0, 1
+                    color: 0, 0, 0, 1  # RGBA for black
+
+<GeneratedWorkoutTab>:
+    ScrollView:
+        MDBoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height
+            id: generated_workout_list

@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Sample Training Session 1",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "reps": 12,
+          "duration": 60,
+          "explanation": "Lie on a bench and lift the barbell with both hands...",
+          "materials": "Barbell, Bench",
+          "muscle focus": {
+            "Chest": 60,
+            "Biceps": 20,
+            "Deltoids": 15,
+            "Forearms": 5
+          },
+          "sets": "1/3"
+        },
+        {
+          "name": "Rest",
+          "duration": 120,
+          "explanation": "Rest and hydrate. Get ready for the next set.",
+          "sets": "1/3"
+        }
+      ]
+    },
+    {
+      "name": "Sample Training Session 2",
+      "exercises": [
+        {
+          "name": "Push-Ups",
+          "reps": 15,
+          "duration": 45,
+          "explanation": "Get into a plank position and lower your body...",
+          "materials": "Mat",
+          "muscle focus": {
+            "Chest": 50,
+            "Triceps": 30,
+            "Deltoids": 15,
+            "Core": 5
+          },
+          "sets": "1/3"
+        },
+        {
+          "name": "Rest",
+          "duration": 90,
+          "explanation": "Rest and hydrate. Get ready for the next set.",
+          "sets": "1/3"
+        }
+      ]
+    }
+  ]
+  
