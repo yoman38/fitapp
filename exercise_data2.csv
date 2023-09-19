@@ -1,25 +1,25 @@
-﻿Exercise Name,Lats,Chest,Deltoids,Biceps,Triceps,abs,Forearm,Quads,Hams,Calfs,Glutes,Lumbar,Trapezius,Material 1,Material 2,Material 3,Est. Time for 10 Reps,Weight for 10 rep,Type,coeff rest time
-Developpe assis a la machine convergente,0,0.7,0.1,0.1,0.2,0,0.1,0,0,0,0,0,0,Machine, ,,60,80, warmup,1.7
-Developpe couche avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,45,60, warmup,1.3
-Developpe couche a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,50,70, stretching,1.5
-Developpe couche a la machine convergente,0,0.75,0,0.05,0.1,0,0.1,0,0,0,0,0,0,Machine, , ,55,75, abs,1.6
-Developpe decline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,50,65, Main,1.3
-Developpe decline a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,55,70, Main,1.4
-Developpe incline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell,Bench, ,50,65, finishing,1.3
-Pull-up,0.7,0.2,0,0.1,0,0,0,0,0,0,0,0,0,drawbar, , ,40, Body Weight, Main,0.8
-Lat Pull Down,0.7,0.2,0,0,0,0,0.1,0,0,0,0,0,0,Machine, , ,40,50, warmup,1.2
-Barbell Row,0.7,0.2,0,0,0,0,0,0.1,0,0,0,0.1,0,Bar, , ,45,50, Main,1.2
-Seated Row,0.6,0.2,0,0,0,0,0,0.2,0,0,0,0,0,Machine, , ,45,55, Main,1.2
-Deadlift,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,100, Main,2
-Squats,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,80, Main,1.7
-Bench Press,0,0.7,0,0.1,0.2,0,0.1,0,0,0,0,0,0,Dumbbell,Bench, ,50,70, Main,1.5
-Military Press,0,0,0.7,0,0.1,0,0,0,0,0,0,0,0.2,Bar, , ,40,40, Main,1.1
-Push-up,0,0.6,0.1,0,0.3,0,0,0,0,0,0,0,0,, , ,30, Body Weight, warmup,0.8
-Plank,0,0,0,0,0,1,0,0,0,0,0,0,0,, , ,60, Body Weight, abs,0.8
-Skull Crushers,0,0,0,0,0.8,0,0.2,0,0,0,0,0,0,Bar, , ,35,20, Main,1
-Tricep Dips,0,0.2,0,0,0.6,0,0,0,0,0,0,0,0,ParallelBars, , ,40, Body Weight, finishing,0.8
-Calf Raises,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,, , ,30, Body Weight, finishing,0.8
-Face Pull,0,0,0.7,0,0,0,0.3,0,0,0,0,0,0,Band, , ,35, Body Weight, Main,0.8
-Shrug,0,0,0,0,0,0,0,0,0,0,0,0,0.9,Bar, , ,30,40, Main,1.1
-Seated Calf Raise,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,Machine, , ,30,40, finishing,1.1
-Kettlebell Swing,0,0,0,0.4,0,0,0,0.1,0.3,0,0.2,0,0,Kettlebell, , ,45,20, Main,1
+﻿Exercise Name,Lats,Chest,Deltoids,Biceps,Triceps,Abs,Forearm,Quads,Hams,Calfs,Glutes,Lumbar,Trapezius,Material 1,Material 2,Material 3,Est. Time for 10 Reps,Weight_beginner,Weight_casual,Weight for 10 rep,Weight_pro,Weight_bodybuilding,Type,coeff rest time,video_path_gif
+Developpe assis a la machine convergente,0,0.7,0.1,0.1,0.2,0,0.1,0,0,0,0,0,0,Machine, ,,60,24,56,80,120,160, warmup,1.7,gif/1.jpg
+Developpe couche avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,45,18,42,60,90,120, warmup,1.3,gif/2.jpg
+Developpe couche a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,50,21,49,70,105,140, stretching,1.5,gif/1.jpg
+Developpe couche a la machine convergente,0,0.75,0,0.05,0.1,0,0.1,0,0,0,0,0,0,Machine, , ,55,22.5,52.5,75,112.5,150, abs,1.6,gif/2.jpg
+Developpe decline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell, , ,50,19.5,45.5,65,97.5,130, Main,1.3,gif/1.jpg
+Developpe decline a la barre,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Bar,Bench, ,55,21,49,70,105,140, Main,1.4,gif/2.jpg
+Developpe incline avec halteres,0,0.7,0,0,0.3,0,0,0,0,0,0,0,0,Dumbbell,Bench, ,50,19.5,45.5,65,97.5,130, finishing,1.3,gif/1.jpg
+Pull-up,0.7,0.2,0,0.1,0,0,0,0,0,0,0,0,0,Drawbar, , ,40,Body Weight,Body Weight,0,Body Weight,Body Weight, Main,0.8,gif/2.jpg
+Lat Pull Down,0.7,0.2,0,0,0,0,0.1,0,0,0,0,0,0,Machine, , ,40,15,35,50,75,100, warmup,1.2,gif/1.jpg
+Barbell Row,0.7,0.2,0,0,0,0,0,0.1,0,0,0,0.1,0,Bar, , ,45,15,35,50,75,100, Main,1.2,gif/2.jpg
+Seated Row,0.6,0.2,0,0,0,0,0,0.2,0,0,0,0,0,Machine, , ,45,16.5,38.5,55,82.5,110, Main,1.2,gif/1.jpg
+Deadlift,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,30,70,100,150,200, Main,2,gif/2.jpg
+Squats,0,0,0,0,0,0,0,0.4,0.3,0,0.2,0,0,Bar, , ,60,24,56,80,120,160, Main,1.7,gif/1.jpg
+Bench Press,0,0.7,0,0.1,0.2,0,0.1,0,0,0,0,0,0,Dumbbell,Bench, ,50,21,49,70,105,140, Main,1.5,gif/2.jpg
+Military Press,0,0,0.7,0,0.1,0,0,0,0,0,0,0,0.2,Bar, , ,40,12,28,40,60,80, Main,1.1,gif/1.jpg
+Push-up,0,0.6,0.1,0,0.3,0,0,0,0,0,0,0,0,, , ,30,Body Weight,Body Weight,0,Body Weight,Body Weight, warmup,0.8,gif/2.jpg
+Plank,0,0,0,0,0,1,0,0,0,0,0,0,0,, , ,60,Body Weight,Body Weight,0,Body Weight,Body Weight, abs,0.8,gif/1.jpg
+Skull Crushers,0,0,0,0,0.8,0,0.2,0,0,0,0,0,0,Bar, , ,35,6,14,20,30,40, Main,1,gif/2.jpg
+Tricep Dips,0,0.2,0,0,0.6,0,0,0,0,0,0,0,0,ParallelBars, , ,40,Body Weight,Body Weight,0,Body Weight,Body Weight, finishing,0.8,gif/1.jpg
+Calf Raises,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,, , ,30,Body Weight,Body Weight,0,Body Weight,Body Weight, finishing,0.8,gif/2.jpg
+Face Pull,0,0,0.7,0,0,0,0.3,0,0,0,0,0,0,Band, , ,35,Body Weight,Body Weight,0,Body Weight,Body Weight, Main,0.8,gif/1.jpg
+Shrug,0,0,0,0,0,0,0,0,0,0,0,0,0.9,Bar, , ,30,12,28,40,60,80, Main,1.1,gif/2.jpg
+Seated Calf Raise,0,0,0,0,0,0,0,0,0,0.9,0.1,0,0,Machine, , ,30,12,28,40,60,80, finishing,1.1,gif/1.jpg
+Kettlebell Swing,0,0,0,0.4,0,0,0,0.1,0.3,0,0.2,0,0,Kettlebell, , ,45,6,14,20,30,40, Main,1,gif/2.jpg
